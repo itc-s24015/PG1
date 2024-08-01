@@ -32,4 +32,10 @@ class Person:
         self.address = address
 
     def show_attributes(self):
-        print("名前:", self.
+        print("名前:", self.name)
+        print("国籍:", self.nationality)
+        print("生まれた年:", self.birth)
+        print("住んでいる所:", self.address)
+
+        heroine = Person('かぐや姫','日本','685','静岡県富士市')
+        print()
